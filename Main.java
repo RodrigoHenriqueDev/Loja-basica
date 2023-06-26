@@ -53,7 +53,7 @@ public class Main {
 				break;
 			case 5:
 				System.out.println("Informe o nome do pedido");
-				String nomePedido = leitor.nextLine();
+				String nomePedido = leitor.next();
 				l1.realizarPedido(nomePedido);
 				break;
 			case 6:
